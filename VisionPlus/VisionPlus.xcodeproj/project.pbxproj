@@ -18,6 +18,26 @@
 		99F971D12C411B0F00DCEC51 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F971D02C411B0700DCEC51 /* CameraView.swift */; };
 		99F971D32C411CBA00DCEC51 /* ActionClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 99F971D22C411CBA00DCEC51 /* ActionClassifier.mlmodel */; };
 		99F971D52C411DA800DCEC51 /* ExpressionClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 99F971D42C411DA800DCEC51 /* ExpressionClassification.mlmodel */; };
+		A483147B2C412D6F00F3D1AB /* AVCaptureDeviceInput+CameraInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483147A2C412D6F00F3D1AB /* AVCaptureDeviceInput+CameraInput.swift */; };
+		A48314802C412D8700F3D1AB /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483147C2C412D8700F3D1AB /* AVCaptureVideoDataOutput+PixelFormat.swift */; };
+		A48314812C412D8700F3D1AB /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483147D2C412D8700F3D1AB /* VideoCapture.swift */; };
+		A48314832C412D8700F3D1AB /* AVCaptureDevice+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483147F2C412D8700F3D1AB /* AVCaptureDevice+FrameRate.swift */; };
+		A48314862C412E1400F3D1AB /* VideoProcessingChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314842C412E1400F3D1AB /* VideoProcessingChain.swift */; };
+		A483148C2C412E2400F3D1AB /* Pose.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314872C412E2400F3D1AB /* Pose.swift */; };
+		A483148D2C412E2400F3D1AB /* Pose+Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314882C412E2400F3D1AB /* Pose+Connection.swift */; };
+		A483148E2C412E2400F3D1AB /* Pose+Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314892C412E2400F3D1AB /* Pose+Empty.swift */; };
+		A483148F2C412E2400F3D1AB /* Pose+Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483148A2C412E2400F3D1AB /* Pose+Landmark.swift */; };
+		A48314992C412E3100F3D1AB /* ActionPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314902C412E3100F3D1AB /* ActionPrediction.swift */; };
+		A483149A2C412E3100F3D1AB /* ExerciseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A48314912C412E3100F3D1AB /* ExerciseClassifier.mlmodel */; };
+		A483149B2C412E3100F3D1AB /* Classifier+FrameRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314922C412E3100F3D1AB /* Classifier+FrameRate.swift */; };
+		A483149C2C412E3100F3D1AB /* Classifier+Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314932C412E3100F3D1AB /* Classifier+Label.swift */; };
+		A483149D2C412E3100F3D1AB /* Classifier+LabelCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314942C412E3100F3D1AB /* Classifier+LabelCheck.swift */; };
+		A483149E2C412E3100F3D1AB /* Classifier+PredictAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314952C412E3100F3D1AB /* Classifier+PredictAction.swift */; };
+		A483149F2C412E3100F3D1AB /* Classifier+Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314962C412E3100F3D1AB /* Classifier+Singleton.swift */; };
+		A48314A02C412E3100F3D1AB /* GarudaClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A48314972C412E3100F3D1AB /* GarudaClassifier.mlmodel */; };
+		A48314A22C4132BB00F3D1AB /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A12C4132BB00F3D1AB /* Classifier.swift */; };
+		A48314A52C4134C400F3D1AB /* PerformanceReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A32C4134C400F3D1AB /* PerformanceReporter.swift */; };
+		A48314A72C41361100F3D1AB /* VideoProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A62C41361100F3D1AB /* VideoProcessing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +72,26 @@
 		99F971D02C411B0700DCEC51 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		99F971D22C411CBA00DCEC51 /* ActionClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ActionClassifier.mlmodel; sourceTree = "<group>"; };
 		99F971D42C411DA800DCEC51 /* ExpressionClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ExpressionClassification.mlmodel; sourceTree = "<group>"; };
+		A483147A2C412D6F00F3D1AB /* AVCaptureDeviceInput+CameraInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVCaptureDeviceInput+CameraInput.swift"; sourceTree = "<group>"; };
+		A483147C2C412D8700F3D1AB /* AVCaptureVideoDataOutput+PixelFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureVideoDataOutput+PixelFormat.swift"; sourceTree = "<group>"; };
+		A483147D2C412D8700F3D1AB /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		A483147F2C412D8700F3D1AB /* AVCaptureDevice+FrameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+FrameRate.swift"; sourceTree = "<group>"; };
+		A48314842C412E1400F3D1AB /* VideoProcessingChain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoProcessingChain.swift; sourceTree = "<group>"; };
+		A48314872C412E2400F3D1AB /* Pose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pose.swift; sourceTree = "<group>"; };
+		A48314882C412E2400F3D1AB /* Pose+Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Connection.swift"; sourceTree = "<group>"; };
+		A48314892C412E2400F3D1AB /* Pose+Empty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Empty.swift"; sourceTree = "<group>"; };
+		A483148A2C412E2400F3D1AB /* Pose+Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Pose+Landmark.swift"; sourceTree = "<group>"; };
+		A48314902C412E3100F3D1AB /* ActionPrediction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionPrediction.swift; sourceTree = "<group>"; };
+		A48314912C412E3100F3D1AB /* ExerciseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ExerciseClassifier.mlmodel; sourceTree = "<group>"; };
+		A48314922C412E3100F3D1AB /* Classifier+FrameRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Classifier+FrameRate.swift"; sourceTree = "<group>"; };
+		A48314932C412E3100F3D1AB /* Classifier+Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Classifier+Label.swift"; sourceTree = "<group>"; };
+		A48314942C412E3100F3D1AB /* Classifier+LabelCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Classifier+LabelCheck.swift"; sourceTree = "<group>"; };
+		A48314952C412E3100F3D1AB /* Classifier+PredictAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Classifier+PredictAction.swift"; sourceTree = "<group>"; };
+		A48314962C412E3100F3D1AB /* Classifier+Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Classifier+Singleton.swift"; sourceTree = "<group>"; };
+		A48314972C412E3100F3D1AB /* GarudaClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GarudaClassifier.mlmodel; sourceTree = "<group>"; };
+		A48314A12C4132BB00F3D1AB /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		A48314A32C4134C400F3D1AB /* PerformanceReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceReporter.swift; sourceTree = "<group>"; };
+		A48314A62C41361100F3D1AB /* VideoProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,13 +140,17 @@
 		99F971962C41126500DCEC51 /* VisionPlus */ = {
 			isa = PBXGroup;
 			children = (
+				A48314982C412E3100F3D1AB /* Action Classifier */,
+				A483148B2C412E2400F3D1AB /* Pose */,
+				A48314852C412E1400F3D1AB /* Video Processing Chain */,
+				A48314792C412D5000F3D1AB /* Extensions */,
 				99F971CF2C411AFE00DCEC51 /* Views */,
 				99F971CD2C41190F00DCEC51 /* AIModel */,
 				99F971C62C41177300DCEC51 /* Controllers */,
+				A48314A42C4134C400F3D1AB /* Utility */,
 				99F971C12C41164100DCEC51 /* Managers */,
 				99F971972C41126500DCEC51 /* VisionPlusApp.swift */,
 				99F971992C41126500DCEC51 /* ContentView.swift */,
-				99F971CB2C4118FA00DCEC51 /* New Group */,
 				99F9719B2C41126700DCEC51 /* Assets.xcassets */,
 				99F9719D2C41126700DCEC51 /* Preview Content */,
 			);
@@ -138,13 +182,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		99F971CB2C4118FA00DCEC51 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		99F971CD2C41190F00DCEC51 /* AIModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +198,61 @@
 				99F971D02C411B0700DCEC51 /* CameraView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A48314792C412D5000F3D1AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A483147D2C412D8700F3D1AB /* VideoCapture.swift */,
+				A483147F2C412D8700F3D1AB /* AVCaptureDevice+FrameRate.swift */,
+				A483147C2C412D8700F3D1AB /* AVCaptureVideoDataOutput+PixelFormat.swift */,
+				A483147A2C412D6F00F3D1AB /* AVCaptureDeviceInput+CameraInput.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A48314852C412E1400F3D1AB /* Video Processing Chain */ = {
+			isa = PBXGroup;
+			children = (
+				A48314842C412E1400F3D1AB /* VideoProcessingChain.swift */,
+				A48314A62C41361100F3D1AB /* VideoProcessing.swift */,
+			);
+			path = "Video Processing Chain";
+			sourceTree = "<group>";
+		};
+		A483148B2C412E2400F3D1AB /* Pose */ = {
+			isa = PBXGroup;
+			children = (
+				A48314872C412E2400F3D1AB /* Pose.swift */,
+				A48314882C412E2400F3D1AB /* Pose+Connection.swift */,
+				A48314892C412E2400F3D1AB /* Pose+Empty.swift */,
+				A483148A2C412E2400F3D1AB /* Pose+Landmark.swift */,
+			);
+			path = Pose;
+			sourceTree = "<group>";
+		};
+		A48314982C412E3100F3D1AB /* Action Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				A48314912C412E3100F3D1AB /* ExerciseClassifier.mlmodel */,
+				A48314972C412E3100F3D1AB /* GarudaClassifier.mlmodel */,
+				A48314902C412E3100F3D1AB /* ActionPrediction.swift */,
+				A48314922C412E3100F3D1AB /* Classifier+FrameRate.swift */,
+				A48314932C412E3100F3D1AB /* Classifier+Label.swift */,
+				A48314942C412E3100F3D1AB /* Classifier+LabelCheck.swift */,
+				A48314952C412E3100F3D1AB /* Classifier+PredictAction.swift */,
+				A48314962C412E3100F3D1AB /* Classifier+Singleton.swift */,
+				A48314A12C4132BB00F3D1AB /* Classifier.swift */,
+			);
+			path = "Action Classifier";
+			sourceTree = "<group>";
+		};
+		A48314A42C4134C400F3D1AB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A48314A32C4134C400F3D1AB /* PerformanceReporter.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,14 +386,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F9719A2C41126500DCEC51 /* ContentView.swift in Sources */,
+				A48314A22C4132BB00F3D1AB /* Classifier.swift in Sources */,
+				A483149A2C412E3100F3D1AB /* ExerciseClassifier.mlmodel in Sources */,
 				99F971D12C411B0F00DCEC51 /* CameraView.swift in Sources */,
 				99F971982C41126500DCEC51 /* VisionPlusApp.swift in Sources */,
 				99F971D52C411DA800DCEC51 /* ExpressionClassification.mlmodel in Sources */,
+				A483149D2C412E3100F3D1AB /* Classifier+LabelCheck.swift in Sources */,
+				A483148D2C412E2400F3D1AB /* Pose+Connection.swift in Sources */,
+				A48314812C412D8700F3D1AB /* VideoCapture.swift in Sources */,
+				A48314A72C41361100F3D1AB /* VideoProcessing.swift in Sources */,
+				A483149E2C412E3100F3D1AB /* Classifier+PredictAction.swift in Sources */,
+				A483149B2C412E3100F3D1AB /* Classifier+FrameRate.swift in Sources */,
 				99F971C32C41165900DCEC51 /* ExpressionManager.swift in Sources */,
 				99F971C82C41181E00DCEC51 /* VideoController.swift in Sources */,
+				A48314A52C4134C400F3D1AB /* PerformanceReporter.swift in Sources */,
 				99F971CA2C41187800DCEC51 /* VideoControllerExtension.swift in Sources */,
+				A48314992C412E3100F3D1AB /* ActionPrediction.swift in Sources */,
+				A483148C2C412E2400F3D1AB /* Pose.swift in Sources */,
+				A483149F2C412E3100F3D1AB /* Classifier+Singleton.swift in Sources */,
+				A48314A02C412E3100F3D1AB /* GarudaClassifier.mlmodel in Sources */,
+				A48314802C412D8700F3D1AB /* AVCaptureVideoDataOutput+PixelFormat.swift in Sources */,
+				A483148E2C412E2400F3D1AB /* Pose+Empty.swift in Sources */,
+				A483149C2C412E3100F3D1AB /* Classifier+Label.swift in Sources */,
 				99F971D32C411CBA00DCEC51 /* ActionClassifier.mlmodel in Sources */,
+				A48314862C412E1400F3D1AB /* VideoProcessingChain.swift in Sources */,
 				99F971CE2C41190F00DCEC51 /* Resnet50Int8LUT.mlmodel in Sources */,
+				A483147B2C412D6F00F3D1AB /* AVCaptureDeviceInput+CameraInput.swift in Sources */,
+				A483148F2C412E2400F3D1AB /* Pose+Landmark.swift in Sources */,
+				A48314832C412D8700F3D1AB /* AVCaptureDevice+FrameRate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,15 +574,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VisionPlus/Preview Content\"";
-				DEVELOPMENT_TEAM = 5V847CY3JM;
+				DEVELOPMENT_TEAM = YTWBVW7W5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,15 +605,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VisionPlus/Preview Content\"";
-				DEVELOPMENT_TEAM = 5V847CY3JM;
+				DEVELOPMENT_TEAM = YTWBVW7W5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
