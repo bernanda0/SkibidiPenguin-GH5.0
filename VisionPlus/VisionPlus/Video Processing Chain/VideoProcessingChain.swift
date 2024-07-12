@@ -62,7 +62,7 @@ struct VideoProcessingChain {
     private let humanBodyPoseRequest = VNDetectHumanBodyPoseRequest()
 
     /// The action classifier that recognizes exercise activities.
-    private let actionClassifier = ExerciseClassifier.shared
+    private let actionClassifier = Classifier.shared
 
     /// The number of pose data instances the action classifier needs
     /// to make a prediction.
@@ -105,6 +105,7 @@ extension VideoProcessingChain {
     /// - Tag: buildProcessingChain
     private mutating func buildProcessingChain() {
         // Only continue with a valid upstream frame publisher.
+        debugPrint("buildProcessingChain")
         guard upstreamFramePublisher != nil else { return }
 
         // Create the chain of publisher-subscribers that transform the raw video

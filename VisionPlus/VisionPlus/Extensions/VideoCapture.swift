@@ -24,7 +24,7 @@ protocol VideoCaptureDelegate: AnyObject {
 
 /// Creates and maintains a capture session that publishes video frames.
 ///
-////Users/althaf/Downloads/garuda-action-classifier 4.mlmodel A `VideoCapture` instance delivers video frames to clients by creating a
+/// A `VideoCapture` instance delivers video frames to clients by creating a
 /// Combine publisher and responds to changes with:
 /// - The device's orientation
 /// - The user's camera selection, between the front- vs. back-facing camera
@@ -133,7 +133,7 @@ extension VideoCapture: AVCaptureVideoDataOutputSampleBufferDelegate {
     func captureOutput(_ output: AVCaptureOutput,
                        didOutput frame: Frame,
                        from connection: AVCaptureConnection) {
-
+        debugPrint("videoCap")
         // Forward the frame through the publisher.
         framePublisher?.send(frame)
     }
@@ -184,7 +184,7 @@ extension VideoCapture {
         defer { captureSession.commitConfiguration() }
 
         // Set the video camera to run at the action classifier's frame rate.
-        let modelFrameRate = ExerciseClassifier.frameRate
+        let modelFrameRate = Classifier.frameRate
 
         let input = AVCaptureDeviceInput.createCameraInput(position: cameraPosition,
                                                            frameRate: modelFrameRate)
@@ -192,6 +192,7 @@ extension VideoCapture {
         let output = AVCaptureVideoDataOutput.withPixelFormatType(kCVPixelFormatType_32BGRA)
 
         let success = configureCaptureConnection(input, output)
+        debugPrint(success)
         return success ? output : nil
     }
 
