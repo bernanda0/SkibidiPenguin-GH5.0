@@ -12,8 +12,7 @@
 		99F9719C2C41126700DCEC51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F9719B2C41126700DCEC51 /* Assets.xcassets */; };
 		99F9719F2C41126700DCEC51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F9719E2C41126700DCEC51 /* Preview Assets.xcassets */; };
 		99F971C32C41165900DCEC51 /* ExpressionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F971C22C41165300DCEC51 /* ExpressionManager.swift */; };
-		99F971C82C41181E00DCEC51 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F971C72C41178500DCEC51 /* VideoController.swift */; };
-		99F971CA2C41187800DCEC51 /* VideoControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F971C92C41186500DCEC51 /* VideoControllerExtension.swift */; };
+		99F971C82C41181E00DCEC51 /* VideoDetectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F971C72C41178500DCEC51 /* VideoDetectorController.swift */; };
 		99F971CE2C41190F00DCEC51 /* Resnet50Int8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 99F971CC2C41190F00DCEC51 /* Resnet50Int8LUT.mlmodel */; };
 		99F971D12C411B0F00DCEC51 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F971D02C411B0700DCEC51 /* CameraView.swift */; };
 		99F971D32C411CBA00DCEC51 /* ActionClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 99F971D22C411CBA00DCEC51 /* ActionClassifier.mlmodel */; };
@@ -38,6 +37,11 @@
 		A48314A22C4132BB00F3D1AB /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A12C4132BB00F3D1AB /* Classifier.swift */; };
 		A48314A52C4134C400F3D1AB /* PerformanceReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A32C4134C400F3D1AB /* PerformanceReporter.swift */; };
 		A48314A72C41361100F3D1AB /* VideoProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A62C41361100F3D1AB /* VideoProcessing.swift */; };
+		A48314A92C413C7000F3D1AB /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314A82C413C7000F3D1AB /* Predictor.swift */; };
+		A48314AB2C413C8900F3D1AB /* VideoCap.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314AA2C413C8900F3D1AB /* VideoCap.swift */; };
+		A48314AF2C41732600F3D1AB /* VideoDetectorController+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314AE2C41732500F3D1AB /* VideoDetectorController+Expression.swift */; };
+		A48314B12C4173AF00F3D1AB /* ExpressionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314B02C4173AF00F3D1AB /* ExpressionDetector.swift */; };
+		A48314B32C41741800F3D1AB /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48314B22C41741800F3D1AB /* SpeechManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +70,7 @@
 		99F971A42C41126700DCEC51 /* VisionPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F971AE2C41126700DCEC51 /* VisionPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F971C22C41165300DCEC51 /* ExpressionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionManager.swift; sourceTree = "<group>"; };
-		99F971C72C41178500DCEC51 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
-		99F971C92C41186500DCEC51 /* VideoControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoControllerExtension.swift; sourceTree = "<group>"; };
+		99F971C72C41178500DCEC51 /* VideoDetectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetectorController.swift; sourceTree = "<group>"; };
 		99F971CC2C41190F00DCEC51 /* Resnet50Int8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50Int8LUT.mlmodel; sourceTree = "<group>"; };
 		99F971D02C411B0700DCEC51 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		99F971D22C411CBA00DCEC51 /* ActionClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ActionClassifier.mlmodel; sourceTree = "<group>"; };
@@ -92,6 +95,11 @@
 		A48314A12C4132BB00F3D1AB /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		A48314A32C4134C400F3D1AB /* PerformanceReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformanceReporter.swift; sourceTree = "<group>"; };
 		A48314A62C41361100F3D1AB /* VideoProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessing.swift; sourceTree = "<group>"; };
+		A48314A82C413C7000F3D1AB /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		A48314AA2C413C8900F3D1AB /* VideoCap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCap.swift; sourceTree = "<group>"; };
+		A48314AE2C41732500F3D1AB /* VideoDetectorController+Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoDetectorController+Expression.swift"; sourceTree = "<group>"; };
+		A48314B02C4173AF00F3D1AB /* ExpressionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionDetector.swift; sourceTree = "<group>"; };
+		A48314B22C41741800F3D1AB /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +153,10 @@
 				A48314852C412E1400F3D1AB /* Video Processing Chain */,
 				A48314792C412D5000F3D1AB /* Extensions */,
 				99F971CF2C411AFE00DCEC51 /* Views */,
+				A48314A82C413C7000F3D1AB /* Predictor.swift */,
+				A48314B02C4173AF00F3D1AB /* ExpressionDetector.swift */,
+				A48314B22C41741800F3D1AB /* SpeechManager.swift */,
+				A48314AA2C413C8900F3D1AB /* VideoCap.swift */,
 				99F971CD2C41190F00DCEC51 /* AIModel */,
 				99F971C62C41177300DCEC51 /* Controllers */,
 				A48314A42C4134C400F3D1AB /* Utility */,
@@ -176,8 +188,8 @@
 		99F971C62C41177300DCEC51 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				99F971C92C41186500DCEC51 /* VideoControllerExtension.swift */,
-				99F971C72C41178500DCEC51 /* VideoController.swift */,
+				99F971C72C41178500DCEC51 /* VideoDetectorController.swift */,
+				A48314AE2C41732500F3D1AB /* VideoDetectorController+Expression.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -389,19 +401,22 @@
 				A48314A22C4132BB00F3D1AB /* Classifier.swift in Sources */,
 				A483149A2C412E3100F3D1AB /* ExerciseClassifier.mlmodel in Sources */,
 				99F971D12C411B0F00DCEC51 /* CameraView.swift in Sources */,
+				A48314A92C413C7000F3D1AB /* Predictor.swift in Sources */,
 				99F971982C41126500DCEC51 /* VisionPlusApp.swift in Sources */,
 				99F971D52C411DA800DCEC51 /* ExpressionClassification.mlmodel in Sources */,
 				A483149D2C412E3100F3D1AB /* Classifier+LabelCheck.swift in Sources */,
+				A48314AB2C413C8900F3D1AB /* VideoCap.swift in Sources */,
 				A483148D2C412E2400F3D1AB /* Pose+Connection.swift in Sources */,
+				A48314AF2C41732600F3D1AB /* VideoDetectorController+Expression.swift in Sources */,
 				A48314812C412D8700F3D1AB /* VideoCapture.swift in Sources */,
 				A48314A72C41361100F3D1AB /* VideoProcessing.swift in Sources */,
 				A483149E2C412E3100F3D1AB /* Classifier+PredictAction.swift in Sources */,
 				A483149B2C412E3100F3D1AB /* Classifier+FrameRate.swift in Sources */,
 				99F971C32C41165900DCEC51 /* ExpressionManager.swift in Sources */,
-				99F971C82C41181E00DCEC51 /* VideoController.swift in Sources */,
+				99F971C82C41181E00DCEC51 /* VideoDetectorController.swift in Sources */,
 				A48314A52C4134C400F3D1AB /* PerformanceReporter.swift in Sources */,
-				99F971CA2C41187800DCEC51 /* VideoControllerExtension.swift in Sources */,
 				A48314992C412E3100F3D1AB /* ActionPrediction.swift in Sources */,
+				A48314B32C41741800F3D1AB /* SpeechManager.swift in Sources */,
 				A483148C2C412E2400F3D1AB /* Pose.swift in Sources */,
 				A483149F2C412E3100F3D1AB /* Classifier+Singleton.swift in Sources */,
 				A48314A02C412E3100F3D1AB /* GarudaClassifier.mlmodel in Sources */,
@@ -411,6 +426,7 @@
 				99F971D32C411CBA00DCEC51 /* ActionClassifier.mlmodel in Sources */,
 				A48314862C412E1400F3D1AB /* VideoProcessingChain.swift in Sources */,
 				99F971CE2C41190F00DCEC51 /* Resnet50Int8LUT.mlmodel in Sources */,
+				A48314B12C4173AF00F3D1AB /* ExpressionDetector.swift in Sources */,
 				A483147B2C412D6F00F3D1AB /* AVCaptureDeviceInput+CameraInput.swift in Sources */,
 				A483148F2C412E2400F3D1AB /* Pose+Landmark.swift in Sources */,
 				A48314832C412D8700F3D1AB /* AVCaptureDevice+FrameRate.swift in Sources */,
